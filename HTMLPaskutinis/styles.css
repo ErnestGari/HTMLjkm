@@ -1,0 +1,297 @@
+/*
+ General styles
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.general-section {
+    padding: 100px 0;
+}
+
+.general-section .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.general-section .title-part {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.general-section .title-part h2 {
+    color: #222;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.general-section .title-part .red-row {
+    background: #EB5757;
+    width: 31px;
+    height: 5px;
+    margin: 19px auto;
+}
+
+.general-section .title-part p {
+    font-size: 20px;
+    color:#222;
+    margin: 0;
+}
+
+/*
+ Navigation
+*/
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 47px 72px;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+
+nav h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 63px;
+}
+
+nav ul .active a, nav a:hover {
+    color: #EB5757;
+}
+
+/*
+ Header
+*/
+
+header {
+    height: calc(100vh - 120px);
+    background: url('images/header.png') center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .content {
+    width: 100%;
+    max-width: 100%;
+}
+
+header h1 {
+    font-size: 80px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header p {
+    font-size: 40px;
+    color: white;
+    margin: 16px 0 43px;
+}
+
+header .buttons a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 15px 66px;
+    display: inline-block;
+}
+
+header .buttons .primary-button {
+    color: white;
+    background: #EB5757;
+    margin-right: 21px;
+}
+
+header .buttons .secondary-button {
+    color: #EB5757;
+    background: white;
+}
+
+/*
+ Citation
+*/
+
+.citation {
+    background: #EB5757;
+    padding: 39px 0;
+}
+
+.citation p {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*
+Artist Section
+*/
+
+.artist-section {
+    background: #f8f8f8;
+}
+
+.artist-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artist-section .content-part .artist-block {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px 40px;
+}
+
+.artist-section .content-part .artist-block .image img {
+    width: 238px;
+    height: 238px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%
+}
+
+.artist-section .content-part .artist-block h3 {
+    color: #222;
+    font-size: 24px;
+    font-style: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    vertical-align: top;
+    line-height: 28px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.artist-section .content-part .artist-block p {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    vertical-align: top;
+    line-height: 22px;
+    line-height: 100%;
+    margin: 0;
+}
+
+/*
+Galerija
+*/
+
+.gallery-section .content-part img {
+
+    width: 249px;
+    height: 248px;
+    object-fit: cover;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 26px;
+
+}
+
+/*
+Biletai
+*/
+
+.bill-section .content-part .firstdienos{
+width: 447px;
+height: 375px;
+left: 214px;
+top: 3939px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+}
+
+.bill-section .content-part .seconddienos{
+    width: 447px;
+    height: 375px;
+    left: 736px;
+    top: 3939px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    }
+
+    
+.bill-section .content-part .thirddienos{
+    width: 447px;
+    height: 375px;
+    left: 1258px;
+    top: 3939px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    }
+
+.bill-section .content-part  h1 {
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 60px;
+
+color: #222222;
+
+}
+
+.bill-section .content-part  p {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+
+color: #222222;
+}
